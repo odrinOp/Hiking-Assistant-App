@@ -1,0 +1,7 @@
+{
+  "name": "hikingAssistant",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
