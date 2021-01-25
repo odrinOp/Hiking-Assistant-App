@@ -1,0 +1,91 @@
+.title_text{
+    font-size: 110% !important;
+    width: 100%;
+    text-align: left;
+    /* color: black; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -2px !important;
+}
+
+
+.card {
+    border-radius: 5%;
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_container{
+    
+    
+    height: 10%;
+    max-height: 120px;
+}
+
+.card_data{
+    height: 50%;
+    padding: 5px 10px;
+}
+
+.main_img {
+    object-fit: contain;
+   max-height: 120px;
+   width: 350px;
+   
+  
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+}
+
+
+
+.heart_ic{
+    border-radius: 95%;
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+    left: 95%;
+    transform: translate(-95%,-5%);
+    -ms-transform: translate(-95%, -5%);
+    
+}
+.star_selected{
+    color: rgb(219, 219, 14);
+}
+.star{
+    color:gray
+}
+
+
+.swiper-pagination{
+    margin-bottom: 5px;
+}
+
+
+
+
+ion-item{
+    --min-height: 16px;
+}
+
+
+
+.location_text{
+    font-size: 100% !important;
+    text-align: left;
+    margin-top: 0px;
+    /* color: black; */
+}
+
+.difficulty_text{
+    font-size: 70%;
+}
+
+.stats_text{
+    font-size: 75% !important;
+    text-align: left;
+    /* color: black; */
+}
